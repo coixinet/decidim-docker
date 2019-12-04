@@ -17,6 +17,6 @@ RUN curl -sL https://deb.nodesource.com/setup_10.x | bash - \
 
 RUN npm install -g npm@6.3.0
 
-RUN gem install decidim:$decidim_version
+RUN gem install decidim
 
 ENTRYPOINT ["decidim"]
