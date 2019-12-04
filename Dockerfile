@@ -19,4 +19,4 @@ RUN npm install -g npm@6.3.0
 
 RUN gem install decidim
 
-ENTRYPOINT ["decidim decidim_application"]
+ENTRYPOINT ["decidim"]
